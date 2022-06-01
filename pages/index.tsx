@@ -36,17 +36,31 @@ const Home: NextPage<Props> = ({ events }) => {
 			</Head>
 			<Navigation />
 			<main className="container mx-auto">
-				<h1 className="text-2xl mb-4">Welcome to Thousand Community</h1>
-				<h2 className="text-xl">Calendar</h2>
-				<ul>
-					{events.map((event, index) => {
-						return (
-							<li key={index}>
-								{event.title} - {event.group.name}
-							</li>
-						);
-					})}
-				</ul>
+				<h1 className="text-2xl pb-4">Welcome to Thousand Community</h1>
+				<section className="pb-4">
+					<h2 id="calendar" className="text-xl">
+						Calendar
+					</h2>
+					<ul>
+						{events.map((event, index) => {
+							return (
+								<li key={index}>
+									{event.title} - {event.group.name}
+								</li>
+							);
+						})}
+					</ul>
+				</section>
+				<section className="pb-4">
+					<h2 id="about" className="text-xl">
+						About us
+					</h2>
+					<p>
+						We&apos;re a group of Birmingham based meetup organisers behind the
+						Golang, DevOps Birmingham, Brum.js, Coffee Ops meetups who believe
+						we&apos;re stronger working together than alone.
+					</p>
+				</section>
 			</main>
 		</>
 	);

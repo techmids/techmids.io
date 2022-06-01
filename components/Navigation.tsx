@@ -9,10 +9,10 @@ export function Navigation() {
 			/>
 			<ul className="flex items-center gap-6 text-xl">
 				<li>
-					<a href="#">Calendar</a>
+					<a href="#calendar">Calendar</a>
 				</li>
 				<li>
-					<a href="#">About us</a>
+					<a href="#about">About us</a>
 				</li>
 			</ul>
 		</header>
