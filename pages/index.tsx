@@ -3,6 +3,7 @@ import Head from "next/head";
 import { Navigation } from "@/components/Navigation";
 import { getMeetupEvents, Event } from "@/helpers/meetup";
 import groups from "@/config/meetup-groups.json";
+import { DateTime } from "luxon";
 
 interface Props {
 	events: Event[];
@@ -13,7 +14,9 @@ export async function getServerSideProps(): Promise<{ props: Props }> {
 
 	const events = groupEvents
 		.flat()
-		.sort((a, z) => a.startsAt - z.startsAt)
+		.sort(
+			(a, z) => new Date(a.startsAt).getTime() - new Date(z.startsAt).getTime()
+		)
 		.slice(0, 10);
 
 	return {
@@ -45,7 +48,12 @@ const Home: NextPage<Props> = ({ events }) => {
 						{events.map((event, index) => {
 							return (
 								<li key={index}>
-									{event.title} - {event.group.name}
+									{DateTime.fromISO(event.startsAt)
+										.setZone("Europe/London")
+										.toLocaleString()}{" "}
+									{event.title}
+									{event.title.includes(event.group.name) ||
+										` - ${event.group.name}`}
 								</li>
 							);
 						})}

@@ -1,4 +1,34 @@
 import axios from "axios";
+import ical from "ical";
+
+export async function getMeetupEvents(group: GroupConfig): Promise<Event[]> {
+	const { data: ics } = await axios.get(group.ical);
+
+	const events = ical.parseICS(ics);
+
+	return Object.values(events)
+		.filter((event) => event.type === "VEVENT")
+		.filter((event) => event.url !== undefined)
+		.map((event) => {
+			const start = event.start as Date;
+			const end = event.end as Date;
+
+			return {
+				title: event.summary || group.name,
+				link: event.url as string,
+				group: {
+					name: group.name,
+				},
+				startsAt: start.toISOString(),
+				endsAt: end.toISOString(),
+			};
+		});
+}
+
+interface GroupConfig {
+	name: string;
+	ical: string;
+}
 
 interface Group {
 	name: string;
@@ -6,24 +36,8 @@ interface Group {
 
 export interface Event {
 	title: string;
-	startsAt: number;
-	length: number;
+	startsAt: string;
+	endsAt: string;
 	group: Group;
 	link: string;
-}
-
-export async function getMeetupEvents(slug: string): Promise<Event[]> {
-	const { data: events } = await axios.get(
-		`https://api.meetup.com/${slug}/events`
-	);
-
-	return events.map((event: any) => ({
-		title: event.name,
-		link: event.link,
-		group: {
-			name: event.group.name,
-		},
-		startsAt: event.time,
-		length: event.duration,
-	}));
 }
