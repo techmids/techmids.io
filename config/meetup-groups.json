@@ -38,5 +38,30 @@
 		"name": "BrumAI",
 		"url": "https://www.meetup.com/brum-ai/events/",
 		"calendarId": "dq7490gc8e17ince9ljtl55kfaurja9s@import.calendar.google.com"
+	},
+	{
+		"name": "Tech Wednesday",
+		"url": "https://www.meetup.com/tech-wednesday/events/",
+		"calendarId": "k7uqbplm03akafj0h42jro16iqcevgmp@import.calendar.google.com"
+	},
+	{
+		"name": "Angular Birmingham",
+		"url": "https://www.meetup.com/Angular-Birmingham/events/",
+		"calendarId": "s409r1m8jns6405co4lph9rqnkdh1n27@import.calendar.google.com"
+	},
+	{
+		"name": "Birmingham TechUp",
+		"url": "https://www.meetup.com/birmingham-techup/events/",
+		"calendarId": "nq1v02hkq4ejapkvjbunns6uscuoevs7@import.calendar.google.com"
+	},
+	{
+		"name": "Birmingham User Experience Group",
+		"url": "https://www.meetup.com/birmingham-user-experience-group/events",
+		"calendarId": "bsl2rdbrhs5ff9v2hc9s46dsmbt09c5b@import.calendar.google.com"
+	},
+	{
+		"name": "Birmingham R User Group",
+		"url": "https://www.meetup.com/birminghamr/events/",
+		"calendarId": "94sc6p7hnb3fg39rnpenre286om9mj47@import.calendar.google.com"
 	}
 ]
