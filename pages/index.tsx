@@ -1,16 +1,16 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import { Navigation } from "@/components/Navigation";
-import { getMeetupEvents, Event } from "@/helpers/meetup";
 import groups from "@/config/meetup-groups.json";
 import { DateTime } from "luxon";
+import { getGoogleCalendarEvents, Event } from "@/helpers/google-calendar";
 
 interface Props {
 	events: Event[];
 }
 
 export async function getServerSideProps(): Promise<{ props: Props }> {
-	const groupEvents = await Promise.all(groups.map(getMeetupEvents));
+	const groupEvents = await Promise.all(groups.map(getGoogleCalendarEvents));
 
 	const events = groupEvents
 		.flat()

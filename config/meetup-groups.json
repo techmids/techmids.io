@@ -1,34 +1,42 @@
 [
 	{
 		"name": "Fusion Technology Meetup",
-		"ical": "https://calendar.google.com/calendar/ical/0an1iuajngaqbtbt38e998dmvtttboiu%40import.calendar.google.com/public/basic.ics"
+		"url": "https://www.meetup.com/fusion-technology-meetup-birmingham/events/",
+		"calendarId": "0an1iuajngaqbtbt38e998dmvtttboiu@import.calendar.google.com"
 	},
 	{
 		"name": "Brum.js",
-		"ical": "https://calendar.google.com/calendar/ical/o4l64n7otu1od5es0hsu1h1ki8055ds1%40import.calendar.google.com/public/basic.ics"
+		"url": "https://www.meetup.com/brum_js/events/",
+		"calendarId": "o4l64n7otu1od5es0hsu1h1ki8055ds1@import.calendar.google.com"
 	},
 	{
 		"name": "CoffeeOps",
-		"ical": "https://calendar.google.com/calendar/ical/7nu8cpjcsjn92p2tjrhjptfna8ghpl8q%40import.calendar.google.com/public/basic.ics"
+		"url": "https://www.meetup.com/coffeeops-birmingham/events/",
+		"calendarId": "7nu8cpjcsjn92p2tjrhjptfna8ghpl8q@import.calendar.google.com"
 	},
 	{
 		"name": "Golang Birmingham",
-		"ical": "https://calendar.google.com/calendar/ical/6su7kors60q79tt6j74omkkjdg4ua8mg%40import.calendar.google.com/public/basic.ics"
+		"url": "https://www.meetup.com/Golang-Birmingham/events/",
+		"calendarId": "6su7kors60q79tt6j74omkkjdg4ua8mg@import.calendar.google.com"
 	},
 	{
 		"name": "DevOps Birmingham",
-		"ical": "https://calendar.google.com/calendar/ical/qjthomilird1e8orsncrir047jq42d27%40import.calendar.google.com/public/basic.ics"
+		"url": "https://www.meetup.com/devops-birmingham/events/",
+		"calendarId": "qjthomilird1e8orsncrir047jq42d27@import.calendar.google.com"
 	},
 	{
 		"name": "You Equal Tech Midlands",
-		"ical": "https://calendar.google.com/calendar/ical/pdk66u9mdou04begch41k4fb0p5sb9bs%40import.calendar.google.com/public/basic.ics"
+		"url": "https://www.meetup.com/You-Equal-Tech-Midlands/events/",
+		"calendarId": "pdk66u9mdou04begch41k4fb0p5sb9bs@import.calendar.google.com"
 	},
 	{
 		"name": "OWASP Birmingham",
-		"ical": "https://calendar.google.com/calendar/ical/09e50rga15efp9c6fk12qrud5h4nnpsu%40import.calendar.google.com/public/basic.ics"
+		"url": "https://www.meetup.com/meetup-group-OWASP-Birmingham/events/",
+		"calendarId": "09e50rga15efp9c6fk12qrud5h4nnpsu@import.calendar.google.com"
 	},
 	{
 		"name": "BrumAI",
-		"ical": "https://calendar.google.com/calendar/ical/dq7490gc8e17ince9ljtl55kfaurja9s%40import.calendar.google.com/public/basic.ics"
+		"url": "https://www.meetup.com/brum-ai/events/",
+		"calendarId": "dq7490gc8e17ince9ljtl55kfaurja9s@import.calendar.google.com"
 	}
 ]
