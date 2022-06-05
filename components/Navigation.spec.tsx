@@ -13,14 +13,14 @@ describe("Navigation", () => {
 		const inBanner = within(banner);
 
 		expect(
-			inBanner.getByRole("img", { name: "Thousand Community" })
+			inBanner.getByRole("img", { name: "Thousand Events" })
 		).toBeVisible();
 
 		const list = inBanner.getByRole("list");
 
 		const inList = within(list);
 
-		expect(inList.getByRole("link", { name: "Calendar" })).toBeVisible();
+		expect(inList.getByRole("link", { name: "Events" })).toBeVisible();
 		expect(inList.getByRole("link", { name: "About us" })).toBeVisible();
 
 		expect(await axe(container)).toHaveNoViolations();

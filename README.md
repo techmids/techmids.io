@@ -1,4 +1,4 @@
-# thousand.community
+# thousand.events
 
 This project uses Next.js, TypeScript, and Tailwind CSS.
 

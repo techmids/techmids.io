@@ -30,26 +30,43 @@ const Home: NextPage<Props> = ({ events }) => {
 	return (
 		<>
 			<Head>
-				<title>Thousand Community</title>
+				<title>Thousand Events</title>
 				<meta
 					name="description"
-					content="Thousand Community believe Birmingham can be the best place to work in tech"
+					content="Thousand Events believe Birmingham can be the best place to work in tech"
 				/>
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 			<Navigation />
 			<main className="container mx-auto">
-				<h1 className="text-2xl pb-4">Welcome to Thousand Community</h1>
+				<h1 className="text-2xl pb-4">
+					Birmingham can be the best place to work in tech.
+					<br />
+					We want to make it happen.
+				</h1>
 				<section className="pb-4">
-					<h2 id="calendar" className="text-xl">
-						Calendar
+					<h2 id="calendar" className="text-xl pb-2">
+						Events
 					</h2>
+					<p className="pb-2">
+						We&apos;ve created a list of all the events running in Birmingham,
+						if we&apos;ve missed something{" "}
+						<a
+							href="https://twitter.com/messages/compose?recipient_id=2418632972&text=Hey%20%F0%9F%91%8B%20I%20think%20you%27ve%20missed%20an%20event%20from%20the%20thousand.events%20website"
+							target="_blank"
+							rel="noreferrer"
+							className="underline"
+						>
+							please tell us.
+						</a>
+					</p>
 					<ul>
 						{events.map((event, index) => {
 							return (
 								<li key={index}>
 									{DateTime.fromISO(event.startsAt)
 										.setZone("Europe/London")
+										.setLocale("en-GB")
 										.toLocaleString()}{" "}
 									{event.title}
 									{event.title.includes(event.group.name) ||
@@ -60,13 +77,21 @@ const Home: NextPage<Props> = ({ events }) => {
 					</ul>
 				</section>
 				<section className="pb-4">
-					<h2 id="about" className="text-xl">
+					<h2 id="about" className="text-xl pb-2">
 						About us
 					</h2>
-					<p>
-						We&apos;re a group of Birmingham based meetup organisers behind the
-						Golang, DevOps Birmingham, Brum.js, Coffee Ops meetups who believe
-						we&apos;re stronger working together than alone.
+					<p className="pb-2">
+						We are engineers who work in Birmingham and run events in Birmingham
+						like{" "}
+						<a
+							href="https://brum.js.org"
+							target="_blank"
+							rel="noreferrer"
+							className="underline"
+						>
+							Brum.js
+						</a>
+						. We believe Birmingham should be the best place to work in tech.
 					</p>
 				</section>
 			</main>
