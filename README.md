@@ -1,4 +1,4 @@
-# thousand.events
+# techmids.io
 
 This project uses Next.js, TypeScript, and Tailwind CSS.
 
