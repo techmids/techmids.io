@@ -30,20 +30,22 @@ const Home: NextPage<Props> = ({ events }) => {
 	return (
 		<>
 			<Head>
-				<title>Thousand Events</title>
+				<title>Tech Mids</title>
 				<meta
 					name="description"
-					content="Thousand Events believe Birmingham can be the best place to work in tech"
+					content="Tech Mids is a group of meetup organisers helping each other out"
 				/>
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 			<Navigation />
 			<main className="container mx-auto">
 				<h1 className="text-2xl pb-4">
-					Birmingham can be the best place to work in tech.
-					<br />
-					We want to make it happen.
+					Tech Mids is a group of meetup organisers helping each other out.
 				</h1>
+				<p className="pb-4">
+					We believe Birmingham can be the best place to work in tech and are
+					working together to make the community the best it can be.
+				</p>
 				<section className="pb-4">
 					<h2 id="calendar" className="text-xl pb-2">
 						Events
@@ -52,7 +54,7 @@ const Home: NextPage<Props> = ({ events }) => {
 						We&apos;ve created a list of all the events running in Birmingham,
 						if we&apos;ve missed something{" "}
 						<a
-							href="https://twitter.com/messages/compose?recipient_id=2418632972&text=Hey%20%F0%9F%91%8B%20I%20think%20you%27ve%20missed%20an%20event%20from%20the%20thousand.events%20website"
+							href="https://twitter.com/messages/compose?recipient_id=1534443614297804801&text=Hey%20%F0%9F%91%8B%20I%20think%20you%27ve%20missed%20an%20event%20from%20the%20techmids.io%20website"
 							target="_blank"
 							rel="noreferrer"
 							className="underline"
