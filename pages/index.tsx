@@ -80,21 +80,23 @@ const Home: NextPage<Props> = ({ events }) => {
 				</section>
 				<section className="pb-4">
 					<h2 id="about" className="text-xl pb-2">
-						About us
+						Who are we?
 					</h2>
 					<p className="pb-2">
-						We are engineers who work in Birmingham and run events in Birmingham
-						like{" "}
-						<a
-							href="https://brum.js.org"
-							target="_blank"
-							rel="noreferrer"
-							className="underline"
-						>
-							Brum.js
-						</a>
-						. We believe Birmingham should be the best place to work in tech.
+						We are organisers who believe Birmingham should be the best place to
+						work in tech, and believe we&apos;re stronger working together.
 					</p>
+					<p className="pb-1">Together, we organise:</p>
+					<ul>
+						<li>Brum.js</li>
+						<li>DevOps Birmingham</li>
+						<li>Golang Birmingham</li>
+						<li>Fusion Technology Meetup Birmingham</li>
+						<li>CoffeeOps Birmingham</li>
+						<li>Lab Chat</li>
+						<li>You Equal Tech Midlands</li>
+						<li>BrumPHP</li>
+					</ul>
 				</section>
 			</main>
 		</>
