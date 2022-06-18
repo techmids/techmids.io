@@ -13,7 +13,7 @@ function UnsafeDarkModeToggle() {
 			<span className="sr-only">
 				{darkMode.value ? "Disable dark mode" : "Enable dark mode"}
 			</span>
-			{darkMode.value ? <MoonStars /> : <Sun />}
+			{darkMode.value ? <Sun /> : <MoonStars />}
 		</button>
 	);
 }
