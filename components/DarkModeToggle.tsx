@@ -6,6 +6,7 @@ function UnsafeDarkModeToggle() {
 	const darkMode = useDarkMode(false, {
 		classNameDark: "dark",
 		classNameLight: "light",
+		element: document.documentElement,
 	});
 
 	return (
