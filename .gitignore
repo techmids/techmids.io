@@ -31,5 +31,5 @@ yarn-error.log*
 # vercel
 .vercel
 
-# typescript
-*.tsbuildinfo
+# generated files
+/public/rss/
