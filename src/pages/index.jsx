@@ -131,8 +131,8 @@ function MeetupCloud() {
 
       <div className="mt-6 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-8">
         {meetups.map((meetup) => (
-          <div className="col-span-1 flex justify-center bg-gray-50">
-            <Image  src={meetup.logo}/>
+          <div key={meetup.name} className="col-span-1 flex justify-center bg-gray-50">
+            <Image  src={meetup.logo} alt={meetup.name}/>
           </div>
           ))}
       </div>
