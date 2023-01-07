@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "export": "next export",
     "start": "next start",
     "lint": "next lint"
   },
@@ -13,7 +14,7 @@
     "@headlessui/react": "^1.7.2",
     "@mapbox/rehype-prism": "^0.7.0",
     "@mdx-js/loader": "^2.2.1",
-    "@mdx-js/react": "^2.1.5",
+    "@mdx-js/react": "^2.2.1",
     "@next/mdx": "^13.1.1",
     "@tailwindcss/aspect-ratio": "^0.4.2",
     "@tailwindcss/typography": "^0.5.4",
