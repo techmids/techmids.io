@@ -8,6 +8,7 @@ const nextConfig = {
   reactStrictMode: true,
 }
 
+
 const withMDX = nextMDX({
   extension: /\.mdx?$/,
   options: {
@@ -15,5 +16,7 @@ const withMDX = nextMDX({
     rehypePlugins: [rehypePrism],
   },
 })
+
+
 
 export default withMDX(nextConfig)
