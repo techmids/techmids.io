@@ -17,9 +17,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-
-  // TODO remove this when we have custom domain set
-  basePath: "/techmids.io",
+  basePath: "/",
 }
 
 
