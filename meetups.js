@@ -53,7 +53,7 @@ export const meetups = [
 	{
 		name: "Codebar",
 		logo: meetupCodebar,
-		link: "",
+		link: "https://codebar.io/birmingham",
 	},
 	{
 		name: "Birmingham .Net",
