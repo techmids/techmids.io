@@ -1,14 +1,8 @@
 import Head from "next/head";
 import { SimpleLayout } from "@/components/SimpleLayout";
-import { Section } from "@/components/Section";
-import { Card } from "@/components/Card";
 import { meetups } from "../../meetups";
 import Image from "next/image";
 import Link from "next/link";
-
-function openLink(href) {
-	window.open(href, "_blank");
-}
 
 export default function Meetups() {
 	return (
@@ -22,10 +16,11 @@ export default function Meetups() {
 			</Head>
 			<SimpleLayout
 				title="Our Member Meetups and groups"
-				intro="TODO"
+				intro="TechMids is an open collective of meetups and events focused on technology and the people who work in it. We are a friendly bunch and we are always happy to meet new people."
 			>
-
-				return (
+			<p className="mt-6 py-2 text-base text-zinc-600 dark:text-zinc-400">
+				We are always looking for new meetups to join our collective. If you run a meetup or event and would like to join us, please get in touch.
+			</p>
 				<ul role="list" className="grid grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-3 sm:gap-x-6 lg:grid-cols-4 xl:gap-x-8">
 					{meetups.map((meetup) => (
 						<li key={meetup.name} className="relative">

@@ -13,42 +13,42 @@ export const meetups = [
 	{
 		name: 'Brum PHP',
 		logo: meetupBrumPHP,
-		link: "",
+		link: "https://www.meetup.com/brumphp/",
 	},
 	{
 		name: "BrumAI",
 		logo: meetupBrumAI,
-		link: "",
+		link: "https://www.meetup.com/brum-ai/",
 	},
 	{
 		name: "BrumJS",
 		logo: meetupBrumJS,
-		link: "",
+		link: "https://www.meetup.com/brum_js/",
 	},
 	{
 		name: "DevOpsDays Birmingham",
 		logo: meetupDevOpsDays,
-		link: "",
+		link: "https://devopsdays.org/events/2023-birmingham-uk/welcome/",
 	},
 	{
 		name: "Fusion",
 		logo: meetupFusion,
-		link: "",
+		link: "https://www.meetup.com/fusion-technology-meetup-birmingham/",
 	},
 	{
 		name: "Golang Birmingham",
 		logo: meetupGolang,
-		link: "",
+		link: "https://www.meetup.com/golang-birmingham/",
 	},
 	{
 		name: "YouEqualTech",
 		logo: meetupYouEqualTech,
-		link: "",
+		link: "https://www.meetup.com/you-equal-tech-midlands/",
 	},
 	{
 		name: "ManageOps",
 		logo: meetupManageOps,
-		link: "",
+		link: "https://https://meetup.com/manageops",
 	},
 	{
 		name: "Codebar",
@@ -58,11 +58,11 @@ export const meetups = [
 	{
 		name: "Birmingham .Net",
 		logo: meetupBrumdotnet,
-		link: "",
+		link: "https://www.meetup.com/birmingham-net-meetup/",
 	},
 	{
 		name: "Hack the Midlands",
 		logo: meetupHackTheMidlands,
-		link: "",
+		link: "https://hackthemidlands.com/",
 	},
 ]
