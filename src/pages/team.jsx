@@ -4,7 +4,7 @@ import Image from 'next/image'
 import alistairImage from "@/images/people/alistair.jpg";
 import lukeImage from "@/images/people/luke.jpg";
 import tomImage from "@/images/people/tom.jpg";
-import mariaImage from "@/images/people/maria.png";
+import mariaImage from "@/images/people/maria.jpg";
 
 
 const people = [
