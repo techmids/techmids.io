@@ -1,7 +1,7 @@
 export const navLinks = [
 	{name: "About", link: "/about"},
-	{name: "Speaking", link: "/speaking"},
-	{name: "Uses", link: "/uses"},
 	{name: "Meetups", link: "/meetups"},
+	{name: "Blog", link: "/blog"},
+	{name: "Code Of Conduct", link: "/code-of-conduct"},
 
 ]

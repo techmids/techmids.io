@@ -5,6 +5,10 @@ import meetupDevOpsDays from "@/images/meetups/devopsdays.png";
 import meetupFusion from "@/images/meetups/fusion-events.png";
 import meetupGolang from "@/images/meetups/golang.png";
 import meetupYouEqualTech from "@/images/meetups/you-equal-tech.png";
+import meetupManageOps from "@/images/meetups/manageops.png";
+import meetupCodebar from "@/images/meetups/codebar.png";
+import meetupBrumdotnet from "@/images/meetups/dotnet.png";
+import meetupHackTheMidlands from "@/images/meetups/htm.png";
 export const meetups = [
 	{
 		name: 'Brum PHP',
@@ -40,5 +44,25 @@ export const meetups = [
 		name: "YouEqualTech",
 		logo: meetupYouEqualTech,
 		link: "",
-	}
+	},
+	{
+		name: "ManageOps",
+		logo: meetupManageOps,
+		link: "",
+	},
+	{
+		name: "Codebar",
+		logo: meetupCodebar,
+		link: "https://codebar.io/birmingham",
+	},
+	{
+		name: "Birmingham .Net",
+		logo: meetupBrumdotnet,
+		link: "",
+	},
+	{
+		name: "Hack the Midlands",
+		logo: meetupHackTheMidlands,
+		link: "",
+	},
 ]
