@@ -65,7 +65,17 @@ export default function About() {
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
-                TechMids Blurb
+                TechMids is based around building a community of tech enthusiasts in Birmingham. We are a group of people who are passionate about technology and want to share that passion with others. We are a group of people who are passionate about technology and want to share that passion with others.
+              </p>
+              <p>
+                We started out as just a few meetups grouping together to help eachother solve the logistics problems of running meetups for tens to hundreds of people. We have since grown to include your favourite meetups - stronger together!
+              </p>
+              <p>
+                Our launch event, TechMids Conference 2022 was the first of its kind in Birmingham. We had over 350 attendees and world-class speakers from across the UK. We are now looking to build on this success and continue to grow the community.
+
+              </p>
+              <p>
+                You can read about our lauch event from our friend Jack Capel at YouEqualTech meetup <a className="text-yellow-500" href="/blog/tech-mids-conference"> here </a>
               </p>
             </div>
           </div>
@@ -81,9 +91,9 @@ export default function About() {
                 Follow on LinkedIn
               </SocialLink>
               <SocialLink
-                href="mailto:hello@techmids.io"
-                icon={MailIcon}
-                className="mt-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40"
+                  href="mailto:hello@techmids.io"
+                  icon={MailIcon}
+                  className="mt-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40"
               >
                 hello@techmids.io
               </SocialLink>
