@@ -186,22 +186,30 @@ export default function Home({ articles }) {
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
             TechMids is a community of tech professionals in Birmingham. We are a group who are passionate about technology and want to share our knowledge and experience with others.
+
           </p>
+          <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
+            TechMids is an open community and we welcome anyone who is interested in technology to join us. We are a friendly bunch and we are always happy to meet new people.
+          </p>
+
+          <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
+            Run a meetup/event or community group? We&apos;d love to hear from you. Get in touch with us on Twitter, via email or reach out to a member.
+            </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
-              href={config.twitterUser}
-              aria-label="Follow on Twitter"
-              icon={TwitterIcon}
+                href={config.twitterUser}
+                aria-label="Follow on Twitter"
+                icon={TwitterIcon}
             />
             <SocialLink
-              href={config.githubUser}
-              aria-label="Follow on GitHub"
-              icon={GitHubIcon}
+                href={config.githubUser}
+                aria-label="Follow on GitHub"
+                icon={GitHubIcon}
             />
             <SocialLink
-              href={config.linkedinUser}
-              aria-label="Follow on LinkedIn"
-              icon={LinkedInIcon}
+                href={config.linkedinUser}
+                aria-label="Follow on LinkedIn"
+                icon={LinkedInIcon}
             />
           </div>
         </div>
@@ -211,7 +219,7 @@ export default function Home({ articles }) {
         <div className="mx-auto grid max-w-xl grid-cols-1 gap-y-20 lg:max-w-none lg:grid-cols-2">
           <div className="flex flex-col gap-16">
             {articles.map((article) => (
-              <Article key={article.slug} article={article} />
+                <Article key={article.slug} article={article} />
             ))}
           </div>
           <div className="space-y-10 lg:pl-16 xl:pl-24">
@@ -232,8 +240,8 @@ export async function getStaticProps() {
   return {
     props: {
       articles: (await getAllArticles())
-        .slice(0, 4)
-        .map(({ component, ...meta }) => meta),
+          .slice(0, 4)
+          .map(({ component, ...meta }) => meta),
     },
   }
 }
