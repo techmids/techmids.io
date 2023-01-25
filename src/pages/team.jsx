@@ -50,7 +50,7 @@ export default function Example() {
             {people.map((person) => (
                 <li key={person.name} className="rounded-lg bg-gray-800 py-10 px-6 text-center xl:px-10 xl:text-left">
                     <div className="space-y-6 xl:space-y-10">
-                        <Image className="mx-auto overflow-clip rounded-lg xl:h-56 xl:w-56" src={person.image} alt="" />
+                        <Image className="mx-auto overflow-clip rounded-lg" src={person.image} alt="" />
                         <div className="space-y-2 xl:flex xl:items-center xl:justify-between">
                             <div className="space-y-1 text-lg font-medium leading-6">
                                 <h3 className="text-white">{person.name}</h3>
