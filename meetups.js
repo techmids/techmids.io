@@ -33,7 +33,7 @@ export const meetups = [
 	{
 		name: "Fusion",
 		logo: meetupFusion,
-		link: "https://www.meetup.com/fusion-technology-meetup-birmingham/",
+		link: "https://meetup.thefusionhub.co.uk/",
 	},
 	{
 		name: "Golang Birmingham",

@@ -26,7 +26,7 @@ export default function Meetups() {
 						<li key={meetup.name} className="relative">
 							<div className="group aspect-w-10 aspect-h-7 block w-full overflow-hidden rounded-lg bg-gray-100 focus-within:ring-2 focus-within:ring-indigo-500 focus-within:ring-offset-2 focus-within:ring-offset-gray-100">
 								<Link href={meetup.link}>
-									<Image src={meetup.logo} alt={meetup.name}/>
+									<Image src={meetup.logo} alt={meetup.name} className="w-full h-full object-contain object-center p-2"/>
 									<button type="button" className="absolute inset-0 focus:outline-none">
 										<span className="sr-only">View details for {meetup.Name}</span>
 									</button>
