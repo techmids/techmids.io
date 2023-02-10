@@ -56,9 +56,9 @@ export const meetups = [
 		link: "https://codebar.io/birmingham",
 	},
 	{
-		name: "Birmingham .Net",
+		name: "Birmingham .NET",
 		logo: meetupBrumdotnet,
-		link: "https://www.meetup.com/birmingham-net-meetup/",
+		link: "https://www.meetup.com/birmingham-dotnet-and-xamarin-user-group/",
 	},
 	{
 		name: "Hack the Midlands",
