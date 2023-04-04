@@ -101,7 +101,7 @@ function Newsletter() {
         <MailIcon className="h-6 w-6 flex-none" />
         <span className="ml-3">Stay up to date</span>
       </h2>
-      <p className="mt-2 text-sm text-zinc-600 dark:text-zinc-400">
+      <p className="mt-2 text-sm text-zinc-600 dark:text-zinc-300">
         Get notified about upcoming events, meetups, conferences and more.
       </p>
       <div className="mt-6 flex">
@@ -184,15 +184,15 @@ export default function Home({ articles }) {
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
             TechMids, your local tech community in Birmingham
           </h1>
-          <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
+          <p className="mt-6 text-base text-zinc-600 dark:text-zinc-300">
             TechMids is a community of tech professionals in Birmingham. We are a group who are passionate about technology and want to share our knowledge and experience with others.
 
           </p>
-          <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
+          <p className="mt-6 text-base text-zinc-600 dark:text-zinc-300">
             TechMids is an open community and we welcome anyone who is interested in technology to join us. We are a friendly bunch and we are always happy to meet new people.
           </p>
 
-          <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
+          <p className="mt-6 text-base text-zinc-600 dark:text-zinc-300">
             Run a meetup/event or community group? We&apos;d love to hear from you. Get in touch with us on Twitter, via email or reach out to a member.
             </p>
           <div className="mt-6 flex gap-6">
