@@ -5,6 +5,7 @@ import alistairImage from "@/images/people/alistair.jpg";
 import lukeImage from "@/images/people/luke.jpg";
 import tomImage from "@/images/people/tom.jpg";
 import mariaImage from "@/images/people/maria.jpg";
+import jimImage from "@/images/people/jim.jpg";
 
 
 const people = [
@@ -35,6 +36,13 @@ const people = [
         image: mariaImage,
         twitterProfile: 'mariamsaveiro',
         linkedinUrl: 'https://www.linkedin.com/in/mariamsaveiro/'
+    },
+        {
+        name: 'James Seconde',
+        role: 'Organiser',
+        image: jimImage,
+        twitterProfile: 'secondej',
+        linkedinUrl: 'https://www.linkedin.com/in/secondej/'
     },
 
     // More people...
