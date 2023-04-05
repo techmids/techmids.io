@@ -18,7 +18,7 @@ export default function Meetups() {
 				title="Our Member Meetups and groups"
 				intro="TechMids is an open collective of meetups and events focused on technology and the people who work in it. We are a friendly bunch and we are always happy to meet new people."
 			>
-			<p className="mt-6 py-2 text-base text-zinc-600 dark:text-zinc-400">
+			<p className="mt-6 py-2 text-base text-zinc-600 dark:text-zinc-300">
 				We are always looking for new meetups to join our collective. If you run a meetup or event and would like to join us, please get in touch.
 			</p>
 				<ul role="list" className="grid grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-3 sm:gap-x-6 lg:grid-cols-4 xl:gap-x-8">
@@ -32,7 +32,7 @@ export default function Meetups() {
 									</button>
 								</Link>
 							</div>
-							<p className="pointer-events-none mt-2 block truncate text-sm font-medium text-zinc-600">{meetup.name}</p>
+							<p className="pointer-events-none mt-2 block truncate text-sm font-medium text-zinc-600 dark:text-zinc-300">{meetup.name}</p>
 						</li>
 						))}
 				</ul>

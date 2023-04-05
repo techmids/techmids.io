@@ -46,7 +46,7 @@ Card.Title = function CardTitle({ as: Component = 'h2', href, children }) {
 
 Card.Description = function CardDescription({ children }) {
   return (
-    <p className="relative z-10 mt-2 text-sm text-zinc-600 dark:text-zinc-400">
+    <p className="relative z-10 mt-2 text-sm text-zinc-600 dark:text-zinc-300">
       {children}
     </p>
   )
@@ -75,7 +75,7 @@ Card.Eyebrow = function CardEyebrow({
     <Component
       className={clsx(
         className,
-        'relative z-10 order-first mb-3 flex items-center text-sm text-zinc-400 dark:text-zinc-500',
+        'relative z-10 order-first mb-3 flex items-center text-sm text-zinc-500 dark:text-zinc-400',
         decorate && 'pl-3.5'
       )}
       {...props}

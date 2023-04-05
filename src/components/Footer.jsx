@@ -26,7 +26,7 @@ export function Footer() {
                 <NavLink key={link.name} href={link.link}>{link.name}</NavLink>
                 ))}
               </div>
-              <p className="text-sm text-zinc-400 dark:text-zinc-500">
+              <p className="text-sm text-zinc-500 dark:text-zinc-400">
                 &copy; {new Date().getFullYear()} Tech Events Birmingham Limited. All rights
                 reserved.
               </p>
