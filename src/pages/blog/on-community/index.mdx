@@ -1,0 +1,113 @@
+import { BlogLayout } from '@/components/BlogLayout'
+import Image from 'next/image'
+
+export const meta = {
+  author: 'James Seconde',
+  date: '2023-04-05',
+  title: 'On Tech Communities',
+  description:
+    'Underestimating the power of tech community is all too common. But why?',
+}
+
+export default (props) => <BlogLayout meta={meta} {...props} />
+
+I've been involved in tech community events (commonly referrered to as 'meetups' or 'usergroups') and conferences for the best part of ten years now,
+and part of my current role involves building and fostering them. Over those past ten years, I have seen the struggles of event
+organisers to bring communities together and to grow them.
+
+From my perspective, building communities within my job is different to building TechMids. In my job within the sphere of _Developer Relations_,
+I have little incentive to directly grow the global PHP community within which I operate: there are plenty of people out there doing good work, and I can
+help where possible as a small cog in the machine. But with my TechMids hat on, the same does not apply.
+
+Our mission is to grow the Tech community in the West Midlands region. For that to happen, TechMids needs to be the glue that fosters collaboration.
+I need to be proactive in getting the region interested in tech from an engineering perspective (rather than product or marketing, Birmingham Tech have you
+covered for this). We also very much have the mantra of "if you build it, they will come". A positive, heathy tech scene where you are is something that can be
+championed by those looking for external investors.
+
+Applying what I have learned from being an active part of this region's scene, there is *one -and only- one* question I see again and again that results in the industry's main
+players here not being aware or interested in community-focused events:
+
+## What's in it for me/my business?
+
+I'm not here to barate anyone that asks this question (it's an extremely valid question!), but I can answer and address the possible assumptions that come with it.
+
+The major assumption I have experienced is that being involved with community things costs time and money, both of which are always in short supply, for no return. The most common
+thing I've been told is that sponsoring events or encouraging your own staff to speak at events is almost like charity: when you have some time, do it, otherwise realistally 
+it's a gesture that will keep some people happy.
+
+Investing time into tech ecosystems isn't charity. Depending on whether you are an individual or company, it's either a massive-career enhancer or it's business. Let's start with the 
+business incentives to be involved with the community:
+
+* Growing a meetup event, *especially* in a particular programming language or framework where there is no local representation increases the technical profile of your business 
+to potential clients. You have the ability to make yourself an industry leader. For example, a potential client has the option to pick from an agency that churns out projects as per
+their project portfolio page, or an agency also does that, but is also an offical VueJS Partner that sends people to International JavaScript conferences. Engineerning excellence
+can give you the edge, *especially* on hiring.
+
+* Like anything else within business, information is power. Developers can have just as much insight into what is happening within the local industry as its' leaders,
+and developers like to *talk*. Want the edge on who is using what tech stack? Want to know which companies' foster positive culture and which ones are struggling? You don't have
+to dig deep to find it.
+
+* Tech talks introduce your employees to people learning about or pioneering new technologies that your business can harness. Yes, you could play the "but there are docs", but
+remember that docs are, by and large, _terrible_. Would you rather roll the dice with an attempt at a new framework, *or* listen to someone that has already thrown them?
+
+* In this case, for this article: TechMids and DevOpsDays Birmingham are *free conferences*. Sure, you pay in time if you send your developers. But free training makes for a happy
+team.
+
+* Fostering the local community with events that scale up will likely result in sponsorship requests. This puts you in direct contact with international tech organisations if you
+want to try and secure funding - firstly giving you avenues for possible negotiation on discounts or trials, and secondly potentially giving you backdoor first line support access
+if said company has a more engineer-focussed Developer Relations team.
+
+* In a tradional business sense: you're building the local economy. This region contains the second largest city in the UK: helping the tech community grow can only mean more potential
+clients or customers.
+
+There's quite a few points here, but I still find it astonishing that so many businesses don't see the obvious return on investment beyond instant fiscal metrics. The most common
+case within my sphere, Developer Relations is measuring success beyond _simply sales_, and it's hard! But sometimes, the facts just speak for themselves. One agency that is
+a prominent contributor to the local scene put out a backend developer last year, and 250 people applied. That doesn't come with luck. That comes with supporting tech communities.
+It's a desirable place to work, and developers know it.
+
+# Enough with the business chat! What's in it for me, as a developer?
+
+I said I'd get onto the personal perspective, so here it is:
+
+## Getting involved and attending local meetups and conferences can be massively beneficial to your career.
+
+I mean, I'm always going to pedal this message because my entire career is built upon tech communities. I landed my first full-stack role by simply attending PHP London, and
+bumping into a Senior Engineer who had the nous to recruit there. It still stands out to me that people are not aware of the _enormous_ personal 
+benfit attending these events can be. However, my aim here isn't to point fingers, it's more to inform - so here are the top points for what you can expect:
+
+* Attending the majority of these events is free, and therefore it's free training. They're community events as well, so you will probably be able to have a chat with 
+the speaker at the event afterwards. My favourite anacdote for this was watching a prominent figure in Test-Driven Development give a talk, I didn't understand the basics
+and therefore sat down in a pub afterwards and had an internationally recognised TDD pioneer explain, in detail, how to do it in my chosen programming language.
+
+* The meetup format and willingness to learn can potentially put in direct contact with companies that are not only hiring, but are aware of using the community as a hiring tool.
+In my experience, the types of business that are interested in the local tech scene tend to be extremely supportive of their developers' interests.
+
+* I stated earlier that intel gives you the edge, and meetups are the best place to get it. I've found out the best places to work, the worst places to work, the median salary per
+stack or technology, places that underpay, places that overpay. If you find the right people at the event you're at, you can get this information for free. I can't stress enough
+how much this boosts your career!
+
+## How do I go about contributing?
+
+Aah! That's the spirit!
+
+A great PHP Developer once joked when arriving in a new city, if the question "where is my local meetup for <x>?" is "there isn't one": _congratulations, it's you_! There are a couple
+of points to note about how you can contribute:
+
+* Not everyone wants the responsibility of running a meetup, of course, but honestly you would be surprised how many people will show interest if you want to create a new event for people to learn and
+socilize. Start small, with as little effort as possible. Remember that the amount of people who turn up is insignifant: the best meetups exist to educate and allow developers to network/socialise.
+TechMids exists to help with how launch an event like this - we can offer advice, potential venues and potential sponsors.
+
+* If you're a business, I'd highly recommend not joining the Not-Invented-Here syndrome. We have an existing ecosystem in the West Midlands, and the structure of TechMids comes from the bottom-up: the
+meetups and the organisers are what makes the scene here, not any one organisation or person. If there is an existing group that covers your interest, for instance, launching the same 
+event to make it work for your goals is likely to fail: the most common example I see is events as a recruitment exercise. If you do this, you'll end up with an event only attended by
+your employees, so running it doesn't really have much benefit.
+
+* Further to that point: developers enjoy the impartiality of talk subjects, speakers and location. If the goal is intel and/or recruitment, *try to make the event as neutral as possible*.
+It's a common theme that I see within companies that a 2 hour sales pitch is put under the guise of a framework or technology, and developers will see straight through it.
+
+## Why now?
+
+Aside from TechMids announcing that it will be running a 2 day conference alongside DevOpsDays Birmingham as part of a world-renouned series of tech events, the time is right for the 
+community. Once again, [startups in the region are the highest outside London](https://www.thebusinessdesk.com/westmidlands/news/2072830-west-midlands-start-ups-hit-nine-month-high),
+Goldman Sachs and The Economst have built out engineering teams here and School of Code has become a national institution. In order to build the economy of the West Midlands, let's build
+a world class community from within, together.
