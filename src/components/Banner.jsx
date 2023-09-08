@@ -7,7 +7,7 @@ export default function Banner() {
                     <svg viewBox="0 0 2 2" className="mx-2 inline h-0.5 w-0.5 fill-current" aria-hidden="true">
                         <circle cx={1} cy={1} r={1} />
                     </svg>
-                    Join us in Birmingham's ICC on 20th October 2023<span aria-hidden="true">&rarr;</span>
+                    Join us in Birmingham&apos;s ICC on 20th October 2023<span aria-hidden="true">&rarr;</span>
                 </a>
             </p>
         </div>
