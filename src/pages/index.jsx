@@ -21,6 +21,7 @@ import { getAllArticles } from '@/lib/getAllArticles'
 import { formatDate } from '@/lib/formatDate'
 import { meetups } from "../../meetups";
 import { config } from "../../config";
+import Banner from "@/components/Banner";
 
 function MailIcon(props) {
   return (
