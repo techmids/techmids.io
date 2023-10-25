@@ -65,4 +65,16 @@ export const meetups = [
 		logo: meetupHackTheMidlands,
 		link: "https://hackthemidlands.com/",
 	},
+	{
+
+	}
 ]
+// missing:
+// AWS Midlands
+// WIT
+// BlackTech Birmingham
+// CoffeeOps
+// CodeYourFuture
+// fizzPOP
+// Lean Agile Birmingham
+
