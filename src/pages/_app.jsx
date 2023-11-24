@@ -5,7 +5,6 @@ import { Header } from '@/components/Header'
 
 import '@/styles/tailwind.css'
 import 'focus-visible'
-import Banner from "@/components/Banner";
 
 function usePrevious(value) {
   let ref = useRef()
@@ -28,7 +27,6 @@ export default function App({ Component, pageProps, router }) {
         </div>
       </div>
       <div className="relative">
-        {/*<Banner />*/}
         <Header />
         <main>
           <Component previousPathname={previousPathname} {...pageProps} />
