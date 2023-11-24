@@ -65,9 +65,6 @@ export const meetups = [
 		logo: meetupHackTheMidlands,
 		link: "https://hackthemidlands.com/",
 	},
-	{
-
-	}
 ]
 // missing:
 // AWS Midlands
