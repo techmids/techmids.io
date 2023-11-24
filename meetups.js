@@ -48,7 +48,7 @@ export const meetups = [
 	{
 		name: "ManageOps",
 		logo: meetupManageOps,
-		link: "https://https://meetup.com/manageops",
+		link: "https://meetup.com/manageops",
 	},
 	{
 		name: "Codebar",
