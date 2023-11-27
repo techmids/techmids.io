@@ -76,6 +76,8 @@ jobs:
       - name: Build with Next.js
 #        run: ${{ steps.detect-package-manager.outputs.runner }} next build
         run: npm run build
+        env:
+          NEXT_PUBLIC_SITE_URL: "https://techmids.io/"
       - name: Static HTML export with Next.js
 #        run: ${{ steps.detect-package-manager.outputs.runner }} next export
         run: npm run export
